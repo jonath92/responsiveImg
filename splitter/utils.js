@@ -1,13 +1,14 @@
-const sizes = [{ width: 900, height: 312, id: 'xs' },
-{ width: 1200, height: 660, id: 'md', left: 0.1, top: 0.25, right: 0.1, bottom: 0.2 },
-{ width: 1500, height: 660, id: 'lg', left: 0.1, top: 0.25, right: 0.1, bottom: 0.2 },
-{ width: 2000, height: 660, id: 'xl', left: 0.1, top: 0.25, right: 0.1, bottom: 0.2 },
+const sizes = [
+  { id: "xs", left: 0, top: 0, right: 0, bottom: 0 },
+  { id: "md", left: 0.1, top: 0.25, right: 0.1, bottom: 0.2 },
+  { id: "lg", left: 0.1, top: 0.25, right: 0.1, bottom: 0.2 },
+  { id: "xl", left: 0.1, top: 0.25, right: 0.1, bottom: 0.2 },
 ];
 
-const preferredFormat = 'webp';
+const preferredFormat = "webp";
 
-const imagePath = './src/images/';
-const thumbsPath = './src/output/';
+const imagePath = "./src/images/";
+const thumbsPath = "./src/output/";
 
 /*
     Original Image
